@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="netflix.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <title>Netflix Page</title>
+  </head>
+  <body>
+    <!-- <nav class="navbar Fixed top navbar-expand-">
+      <a class="navbar-brand" href="#">
+        <img
+          src="netflix_logo.png"
+          width="70"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup ">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#"
+            >Home <span class="sr-only"></span
+          ></a>
+          <a class="nav-link" href="#">Tv Shows</a>
+          <a class="nav-link" href="#">Movies</a>
+          <a class="nav-link">Recenty Added</a>
+          <a class="nav-link">My List</a>
+        </div>
+        <i class="bi bi-bell-fill"></i>
+        <span class="ki">KIDS</span>
+        <i class="bi2 bi-search"></i>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-none dropdown-toggle"
+            data-toggle="dropdown"
+            aria-expanded="false"
+          >
+           <img src="kids_icon.png" alt="" width="30" height="30" />
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <button class="dropdown-item" type="button">Home</button>
+            <button class="dropdown-item" type="button">Account</button>
+            <button class="dropdown-item" type="button">Settings</button>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+    <div class="container-fluid position-relative px-sm-4 px-md-5">
+      <nav class="navbar navbar-expand-lg navbar-dark px-0">
+          <a class="navbar-brand ml-n2" href="./netflix.html"><img src="netflix_logo.png" alt="netflix logo"
+                  height="48"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="./netflix.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Tv Shows</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Movies</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link text-white font-italic" href="./backoffice.html"
+                      >BackOffice <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./backoffice.html">My List</a>
+                  </li>
+              </ul>
+
+              <div>
+                  <i class="bi bi-search align-middle mr-3"></i>
+                  <span class="kids align-middle mr-3">KIDS</span>
+                  <i class="bi bi-bell-fill align-middle mr-3"></i>
+                  <div class="dropdown d-inline-block nav-dropdown">
+                      <button class="btn dropdown-toggle p-0" type="button" id="dropdownMenuButton"
+                          data-toggle="dropdown" aria-expanded="false">
+                          <i class="bi bi-person-circle"></i>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="./backoffice.html">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                  </div>
+              </div>
+
+
+          </div>
+      </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <h4 class="title mx-4 mt-1">TV Shows</h4>
+        <div class="col">
+          <div class="dropdown mt-1">
+            <button class="btn btn-dark dropdown-toggle pb-0 pt-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+              Genres
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Comedy</a>
+              <a class="dropdown-item" href="#">Thriller</a>
+              <a class="dropdown-item" href="#">SciFi</a>
+            </div>
+            <div class="col mt-2">
+              <i class="bi bi-list "style="font-size: 20px; padding-left: 7px;padding-right:7px; border: 1px solid white; opacity: 0.5;" ></i>
+              <i class="bi bi-grid" style="font-size: 20px; padding-left: 7px;padding-right:7px; border: 1px solid white; opacity: 0.5;" ></i>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class=" mx-2 mt-3">
+      <h4 class="title2" >Trending Now</h4>
+      </div>
+      <div class="row">
+        <div class="col-2 ">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media0.webp" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media6.jpg" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media30.jpg" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media1.jpg" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media7.webp" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media21.webp" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media2.webp" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media8.webp" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media32.jpg" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media3.webp" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media9.jpg" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media15.jpg" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media4.jpg" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media24.jpg" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media16.webp" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media5.webp" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media11.jpg" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media17.jpg" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+      <div class=" mx-4 mt-3 ml-2 ">
+        <h4 class="title3" >Watch It Again</h4>
+        </div>
+        <div class="row">
+          <div class="col-2 ">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="media6.jpg" class="w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media12.jpg" class=" w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media18.jpg" class=" w-100 rounded" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="media7.webp" class="w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media13.jpg" class=" w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media19.webp" class=" w-100 rounded" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="media8.webp" class="w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media14.webp" class=" w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media20.jpg" class=" w-100 rounded" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="media9.jpg" class="w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media15.jpg" class=" w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media0.webp" class=" w-100 rounded" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="media10.jpg" class="w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media16.webp" class=" w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media22.webp" class=" w-100 rounded" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="media11.jpg" class="w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media17.jpg" class=" w-100 rounded" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="media23.webp" class=" w-100 rounded" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class=" mx-4 mt-3">
+      <h4 class="title4" >New Releases</h4>
+      </div>
+      <div class="row">
+        <div class="col-2 ">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media24.jpg" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media32.jpg" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media12.jpg" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media25.webp" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media31.webp" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media27.jpg" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media26.webp" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media30.jpg" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media14.webp" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media27.jpg" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media19.webp" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media5.webp" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media28.jpg" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media20.jpg" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media11.jpg" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media29.jpg" class="w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media2.webp" class=" w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="media16.webp" class=" w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+  </div>
+</div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="netflix.js"></script>
+  </body>
+</html>
